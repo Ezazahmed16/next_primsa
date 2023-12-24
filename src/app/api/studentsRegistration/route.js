@@ -33,6 +33,7 @@ export async function GET(req, res) {
 export async function POST(req, res) {
   try {
     const reqBody = await req.json();
+    console.log(reqBody)
     const result = await prisma.user.createMany({
       data: reqBody,
     });

@@ -1,8 +1,8 @@
 -- CreateTable
 CREATE TABLE `User` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
-    `first_name` VARCHAR(50) NOT NULL,
-    `last_name` VARCHAR(50) NOT NULL,
+    `firstName` VARCHAR(255) NOT NULL,
+    `lastName` VARCHAR(255) NOT NULL,
     `age` INTEGER NOT NULL,
     `grade` VARCHAR(20) NOT NULL,
     `courses` JSON NOT NULL,
